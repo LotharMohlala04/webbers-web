@@ -491,7 +491,7 @@ export default function Navigation() {
 
             {/* Logo */}
             <div className="ml-4 flex lg:ml-0">
-              <a href="/home">
+              <a href="/">
                 <span className="sr-only">Webbers</span>
                 <img alt="" src={logo} className="h-8 w-auto" />
               </a>

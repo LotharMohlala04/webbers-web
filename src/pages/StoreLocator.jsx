@@ -6,7 +6,7 @@ const StoreLocator = () => {
   const [selectedProvince, setSelectedProvince] = useState("Gauteng");
   const [selectedCity, setSelectedCity] = useState("Alberton");
   const [expandedProvinces, setExpandedProvinces] = useState({
-    Gauteng: true,
+    Gauteng: false,
     "Eastern Cape": false,
     Mpumalanga: false,
   });
