@@ -32,7 +32,7 @@ function Promotion() {
           />
         </div>
       </section>
-      <div className="space-y-6 w-3/5 mx-auto p-6">
+      <div className="space-y-6 w-1/2 mx-auto p-6">
         {promotions.map((promo) => (
           <PromoCard key={promo.id} img={promo.img} label={promo.label} />
         ))}

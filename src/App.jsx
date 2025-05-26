@@ -14,6 +14,7 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import RootLayout from "./layout/RootLayout";
+import Sale from "./pages/Sale";
 
 function App() {
 
@@ -25,12 +26,12 @@ function App() {
           path="catalogue/:group/:category/:style?"
           element={<Catalogue />}
         />
-        {/* <Route path="/catalogue/:group/:category" element={<Catalogue />} /> */}
         <Route path="item/:skunumber" element={<ProductDetails />} />
         <Route path="storelocator" element={<StoreLocator />} />
         <Route path="newarrivals" element={<NewArrivals />} />
         <Route path="promotion" element={<Promotion />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="/sale" element={<Sale />} />
       </Route>
     )
   );
