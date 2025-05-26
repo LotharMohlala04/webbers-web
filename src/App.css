@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+/* Custom styles for full screen layout */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* If you have issues with scrolling, add this */
+body {
+  overflow-x: hidden;
+}
+
+/* This ensures your flex container can fill the screen */
+#root {
+  display: flex;
+  flex-direction: column;
+}
